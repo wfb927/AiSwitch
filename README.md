@@ -60,7 +60,9 @@
   - 适合 IT 域控管理员进行组策略（GPO）批量分发与静默安装。
 
 ### macOS 用户
-- 支持在 macOS 平台运行，提供完全对齐 Apple 原生人机交互界面的视觉体验。
+- **苹果通用安装镜像（DMG 推荐）**：[`AiSwitch_0.1.3_universal.dmg`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.3_universal.dmg)
+  - 完美适配 Apple Silicon (M1/M2/M3/M4) 与 Intel 芯片，双击挂载拖拽至 Applications 即可运行。
+- **免安装应用归档**：[`AiSwitch_universal.app.tar.gz`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_universal.app.tar.gz)
 
 ---
 
