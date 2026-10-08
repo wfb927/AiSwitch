@@ -1,0 +1,8 @@
+{
+  "version": "0.1.3",
+  "release_date": "2026-10-08",
+  "release_notes": "1. 全面原生化 macOS 交互体验：自适应展示左上角红黄绿三色交通灯控件，支持鼠标悬停微缩符号（关闭/最小化/最大化）交互\n2. 深度适配 macOS 苹方与 SF Pro 字体渲染、硬件抗锯齿与极简原生胶囊滚动条\n3. 持续优化 Codex / Claude Code / Antigravity 跨平台渠道与模型调度支持\n4. 支持在线检测 GitHub 新版本发布并提供高速镜像下载更新",
+  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.3/AiSwitch_0.1.3_x64-setup.exe",
+  "filename": "AiSwitch_0.1.3_x64-setup.exe",
+  "is_mandatory": false
+}
