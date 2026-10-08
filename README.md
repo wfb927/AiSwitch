@@ -54,8 +54,6 @@
 ### Windows 用户
 - **标准安装版（推荐）**：[`AiSwitch_0.1.3_x64-setup.exe`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.3_x64-setup.exe)
   - 全高清矢量安装向导，免 UAC 提权提示，支持开机自启与平滑覆盖更新。
-- **绿色免安装版**：[`AiSwitch_0.1.3_x64_portable.exe`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.3_x64_portable.exe)
-  - 单文件便携版，解压即用，不修改注册表。
 - **企业部署包（MSI）**：[`AiSwitch_0.1.3_x64_zh-CN.msi`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.3_x64_zh-CN.msi)
   - 适合 IT 域控管理员进行组策略（GPO）批量分发与静默安装。
 
