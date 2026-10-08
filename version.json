@@ -1,8 +1,8 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "release_date": "2026-10-08",
-  "release_notes": "1. 全面原生化 macOS 交互体验：自适应展示左上角红黄绿三色交通灯控件，支持鼠标悬停微缩符号（关闭/最小化/最大化）交互\n2. 深度适配 macOS 苹方与 SF Pro 字体渲染、硬件抗锯齿与极简原生胶囊滚动条\n3. 持续优化 Codex / Claude Code / Antigravity 跨平台渠道与模型调度支持\n4. 支持在线检测 GitHub 新版本发布并提供高速镜像下载更新",
-  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.3/AiSwitch_0.1.3_x64-setup.exe",
-  "filename": "AiSwitch_0.1.3_x64-setup.exe",
+  "release_notes": "1. 彻底解决 macOS 系统频繁弹出“已阻止 AiSwitch 修改 Mac 上的 App”的拦截骚扰死循环\n2. 优化 macOS 下 Antigravity 语言服务器包装器部署机制，支持原生系统密码/Touch ID 授权一次性部署并重签名\n3. 状态查询严格遵循只读原则，彻底切断后台重复尝试写系统受保护目录行为\n4. 持续优化 Windows & macOS 双端一键在线检查更新与平滑升级",
+  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.4/AiSwitch_0.1.4_x64-setup.exe",
+  "filename": "AiSwitch_0.1.4_x64-setup.exe",
   "is_mandatory": false
 }

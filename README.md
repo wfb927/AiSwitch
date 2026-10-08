@@ -52,13 +52,13 @@
 你可以前往 [**Releases 发布页面**](https://github.com/wfb927/AiSwitch/releases/latest) 下载最新的安装包：
 
 ### Windows 用户
-- **标准安装版（推荐）**：[`AiSwitch_0.1.3_x64-setup.exe`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.3_x64-setup.exe)
+- **标准安装版（推荐）**：[`AiSwitch_0.1.4_x64-setup.exe`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.4_x64-setup.exe)
   - 全高清矢量安装向导，免 UAC 提权提示，支持开机自启与平滑覆盖更新。
-- **企业部署包（MSI）**：[`AiSwitch_0.1.3_x64_zh-CN.msi`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.3_x64_zh-CN.msi)
+- **企业部署包（MSI）**：[`AiSwitch_0.1.4_x64_zh-CN.msi`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.4_x64_zh-CN.msi)
   - 适合 IT 域控管理员进行组策略（GPO）批量分发与静默安装。
 
 ### macOS 用户
-- **苹果通用安装镜像（DMG 推荐）**：[`AiSwitch_0.1.3_universal.dmg`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.3_universal.dmg)
+- **苹果通用安装镜像（DMG 推荐）**：[`AiSwitch_0.1.4_universal.dmg`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.4_universal.dmg)
   - 完美适配 Apple Silicon (M1/M2/M3/M4) 与 Intel 芯片，双击挂载拖拽至 Applications 即可运行。
 - **免安装应用归档**：[`AiSwitch_universal.app.tar.gz`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_universal.app.tar.gz)
 
