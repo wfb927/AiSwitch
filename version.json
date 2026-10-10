@@ -1,8 +1,8 @@
 {
-  "version": "0.1.4",
-  "release_date": "2026-10-08",
-  "release_notes": "1. 彻底解决 macOS 系统频繁弹出“已阻止 AiSwitch 修改 Mac 上的 App”的拦截骚扰死循环\n2. 优化 macOS 下 Antigravity 语言服务器包装器部署机制，支持原生系统密码/Touch ID 授权一次性部署并重签名\n3. 状态查询严格遵循只读原则，彻底切断后台重复尝试写系统受保护目录行为\n4. 持续优化 Windows & macOS 双端一键在线检查更新与平滑升级",
-  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.4/AiSwitch_0.1.4_x64-setup.exe",
-  "filename": "AiSwitch_0.1.4_x64-setup.exe",
+  "version": "0.1.5",
+  "release_date": "2026-10-10",
+  "release_notes": "1. 深度接管 Claude Desktop 桌面端：采用 3P 企业架构规范，完美兼容非 Anthropic 格式模型（DeepSeek、Kimi、GLM 等）\n2. 内置本地透明反向代理（Claude Proxy）：暴露合规模型清单，支持 HTTP/1.1 分块流式 SSE 实时打字渲染与 anthropic-beta 特性透传\n3. 历史孤儿配置自动自愈：自动扫描清理历史遗留的 15721 端口失效配置，彻底解决“无法访问 127.0.0.1:15721”报错\n4. 彻底修复 Claude 桌面端重启：支持 WindowsApps 商店版（MSIX）AUMID 原生拉起与进程快照毫秒级等待\n5. 界面与排版体验优化：更新日志支持可折叠 Markdown 渲染排版，设置界面文案纯中文规范化",
+  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.5/AiSwitch_0.1.5_x64-setup.exe",
+  "filename": "AiSwitch_0.1.5_x64-setup.exe",
   "is_mandatory": false
 }
