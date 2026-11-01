@@ -26,6 +26,7 @@
 **AiSwitch** 为解决这些问题而生：
 - 🚀 **全主流客户端一键热切**：无需手动修改各软件复杂的配置文件，告别因配置格式错误引发的软件崩溃。
 - ⚡ **Codex 深度模型注入**：内置动态二进制探针与远期时间戳机制，彻底突破第三方中转站模型在 Codex 官方界面无法显示或自动回退的问题。
+- 🧩 **Claude 模型档位映射**：Sonnet / Opus / Haiku / Fable / 子代理 五档自动对齐，后台任务、标题生成与子代理不再拿原始 Claude 模型名去请求第三方接口。
 - 🎨 **Antigravity 全模态放行**：内置轻量原生语言服务适配引擎，解除多模态图片、截图与 PDF 上传限制，突破账户模型可用性封锁。
 - 🍎 **双平台原生级体验**：
   - **macOS**：自适应苹果原生左上角红黄绿三色交通灯控件、苹果与 SF Pro 字体滑棒核查与极简胶囊滑动条；
@@ -40,7 +41,7 @@
 | :--- | :--- | :--- |
 | **OpenAI Codex** | VS Code / 桌面端插件 | 协议规范归一化、远期防过期缓存、动态散列探针注入第三方全量模型目录 |
 | **Google Antigravity** | 桌面端应用 | 动态端点接管、CSRF 实时重写、全模态媒体放行自愈 |
-| **Claude Code** | 终端命令行交互 | 环境变量与全局配置自动化同步、进程安全重启 |
+| **Claude Code** | 终端命令行交互 | 环境变量与全局配置自动化同步、五档模型角色映射、进程安全重启 |
 | **Claude Desktop** | 官方桌面端 | 3P 企业架构规范对齐、内置透明反向代理、RFC 7230 分块流式 SSE 透传、竞品模型透明重写与商店版重启 |
 | **MiniMax Code** | 代码辅助工具 | 原生中转协议快速切换与模型映射 |
 | **ZCode** | 智能辅助环境 | 极速切换模型与自建/第三方端点调度 |
@@ -52,13 +53,13 @@
 你可以前往 [**Releases 发布页面**](https://github.com/wfb927/AiSwitch/releases/latest) 下载最新的安装包：
 
 ### Windows 用户
-- **标准安装版（推荐）**：[`AiSwitch_0.1.5_x64-setup.exe`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.5_x64-setup.exe)
+- **标准安装版（推荐）**：[`AiSwitch_0.1.6_x64-setup.exe`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.6_x64-setup.exe)
   - 全高清矢量安装向导，免 UAC 提权提示，支持开机自启与平滑覆盖更新。
-- **企业部署包（MSI）**：[`AiSwitch_0.1.5_x64_zh-CN.msi`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.5_x64_zh-CN.msi)
+- **企业部署包（MSI）**：[`AiSwitch_0.1.6_x64_zh-CN.msi`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.6_x64_zh-CN.msi)
   - 适合 IT 域控管理员进行组策略（GPO）批量分发与静默安装。
 
 ### macOS 用户
-- **苹果通用安装镜像（DMG 推荐）**：[`AiSwitch_0.1.5_universal.dmg`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.5_universal.dmg)
+- **苹果通用安装镜像（DMG 推荐）**：[`AiSwitch_0.1.6_universal.dmg`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_0.1.6_universal.dmg)
   - 完美适配 Apple Silicon (M1/M2/M3/M4) 与 Intel 芯片，双击挂载拖拽至 Applications 即可运行。
 - **免安装应用归档**：[`AiSwitch_universal.app.tar.gz`](https://github.com/wfb927/AiSwitch/releases/latest/download/AiSwitch_universal.app.tar.gz)
 

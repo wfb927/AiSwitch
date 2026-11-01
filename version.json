@@ -1,8 +1,8 @@
 {
-  "version": "0.1.5",
-  "release_date": "2026-10-10",
-  "release_notes": "1. 深度接管 Claude Desktop 桌面端：采用 3P 企业架构规范，完美兼容非 Anthropic 格式模型（DeepSeek、Kimi、GLM 等）\n2. 内置本地透明反向代理（Claude Proxy）：暴露合规模型清单，支持 HTTP/1.1 分块流式 SSE 实时打字渲染与 anthropic-beta 特性透传\n3. 历史孤儿配置自动自愈：自动扫描清理历史遗留的 15721 端口失效配置，彻底解决“无法访问 127.0.0.1:15721”报错\n4. 彻底修复 Claude 桌面端重启：支持 WindowsApps 商店版（MSIX）AUMID 原生拉起与进程快照毫秒级等待\n5. 界面与排版体验优化：更新日志支持可折叠 Markdown 渲染排版，设置界面文案纯中文规范化",
-  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.5/AiSwitch_0.1.5_x64-setup.exe",
-  "filename": "AiSwitch_0.1.5_x64-setup.exe",
+  "version": "0.1.6",
+  "release_date": "2026-11-02",
+  "release_notes": "1. Claude 客户端新增模型档位：Sonnet / Opus / Haiku / Fable / 子代理 一键分配，后台任务（标题生成、文件摘要、子代理）不再拿原始 Claude 名请求第三方接口\n2. 修复 Claude Desktop 上下文被压缩：Haiku 档合规名升级为 claude-haiku-5-5，可用上下文从 20 万恢复到 100 万\n3. 新增账号库：多个 API 账号保存复用，不用反复粘贴密钥\n4. 新增客户端管理器：统一查看已安装的 AI 编程客户端，一键接管或恢复官方\n5. 界面支持五语言：简体中文 / 繁體中文 / English / 日本語 / Türkçe\n6. 多语言官网上线与在线更新元数据同步",
+  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.6/AiSwitch_0.1.6_x64-setup.exe",
+  "filename": "AiSwitch_0.1.6_x64-setup.exe",
   "is_mandatory": false
 }
