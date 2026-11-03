@@ -1,8 +1,8 @@
 {
-  "version": "0.1.7",
-  "release_date": "2026-11-02",
-  "release_notes": "1. 渠道弹窗重构为「选择 API」：优先从「我的 API」库挑账号，服务商预设作为备选，随时可一键回到自定义填写\n2. 同一站点多分组多密钥按独立账号处理：只有域名和密钥都一致才提示关联，已关联渠道的地址与密钥改为只读\n3. 新增「待重启生效」提醒：切换渠道或改配置后，左侧菜单变琥珀色标记，顶部横幅一键重启，覆盖全部客户端\n4. 修复安装版启动报「找不到 WebView2Loader.dll」：安装包补齐 WebView2 加载器，装完即可正常打开\n5. 修复配置文件查看器误显示 Codex 路径的问题，并补齐 WorkBuddy 三端配置文件路径\n6. 界面统一：输入框统一 36px 高、按钮层级与圆角统一、API 库账号列表显示站点真实图标\n7. 客户端名称支持五语言切换，杜绝英文界面出现中文残留\n8. 发布构建加固：前端不产出源码映射、后端剥离调试符号，安装包体积明显减小",
-  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.7/AiSwitch_0.1.7_x64-setup.exe",
-  "filename": "AiSwitch_0.1.7_x64-setup.exe",
+  "version": "0.1.8",
+  "release_date": "2026-11-03",
+  "release_notes": "1. macOS 改用系统原生窗口：原生圆角、原生阴影与真实红黄绿灯，不再出现直角和自绘按钮\n2. macOS 补齐系统菜单栏：⌘Q 退出、⌘W 关窗、⌘M 最小化，编辑菜单支持复制粘贴全选\n3. macOS 关窗不再退出应用，点 Dock 图标即可重新打开，符合 mac 使用习惯\n4. macOS 顶部拖拽区与交通灯位置对齐，深色模式观感统一",
+  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.8/AiSwitch_0.1.8_x64-setup.exe",
+  "filename": "AiSwitch_0.1.8_x64-setup.exe",
   "is_mandatory": false
 }
