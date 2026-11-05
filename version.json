@@ -1,8 +1,8 @@
 {
-  "version": "0.1.8",
-  "release_date": "2026-11-03",
-  "release_notes": "1. macOS 改用系统原生窗口：原生圆角、原生阴影与真实红黄绿灯，不再出现直角和自绘按钮\n2. macOS 补齐系统菜单栏：⌘Q 退出、⌘W 关窗、⌘M 最小化，编辑菜单支持复制粘贴全选\n3. macOS 关窗不再退出应用，点 Dock 图标即可重新打开，符合 mac 使用习惯\n4. macOS 顶部拖拽区与交通灯位置对齐，深色模式观感统一",
-  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.1.8/AiSwitch_0.1.8_x64-setup.exe",
-  "filename": "AiSwitch_0.1.8_x64-setup.exe",
+  "version": "0.2.0",
+  "release_date": "2026-11-05",
+  "release_notes": "1. 新增匿名使用统计：只上报随机安装号、版本号、系统信息与功能事件，不含 API 密钥、渠道地址、模型名与任何业务内容\n2. 更新流程拆成「检查更新 / 下载 / 安装」三步独立记录，更新失败与安装成功率看得见\n3. Windows 关窗可最小化到托盘，托盘菜单一键显示主界面或退出应用，支持开机静默启动到托盘\n4. 修正 macOS 红黄绿按钮与顶部拖拽区的间距，改用系统原生位置，深浅色观感统一",
+  "download_url": "https://github.com/wfb927/AiSwitch/releases/download/v0.2.0/AiSwitch_0.2.0_x64-setup.exe",
+  "filename": "AiSwitch_0.2.0_x64-setup.exe",
   "is_mandatory": false
 }
